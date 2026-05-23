@@ -6,6 +6,15 @@ PocketFriendly solves this by:
   <img src="Assets/logo.png" alt="PocketFriendly Logo" width="1000"/>
 </p>
 A full-stack Node.js + Express REST API to manage group trip expenses, split bills fairly, and keep track of who owes whom. Built with MongoDB, JWT auth, and email notifications.
+<p align="center">
+  <a href="https://pocketfriendlyofficial.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐%20Live%20Demo-pocketfriendlyofficial.netlify.app-brightgreen?style=for-the-badge&logo=netlify&logoColor=white" alt="Live Demo" />
+  </a>
+</p>
+<p align="center">
+  <strong>👉 <a href="https://pocketfriendlyofficial.netlify.app/">https://pocketfriendlyofficial.netlify.app/</a></strong>
+</p>
+
 
 ---
 
