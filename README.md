@@ -1,5 +1,6 @@
 # 💸 PocketFriendly
-
+When you go on a trip with friends, one person pays for hotel, another pays for food, another for transport — and at the end everyone is confused about who owes how much to whom.
+PocketFriendly solves this by:
 > **Group Trip Expense Splitter —**
 > <p align="center">
   <img src="Assets/logo.png" alt="PocketFriendly Logo" width="1000"/>
