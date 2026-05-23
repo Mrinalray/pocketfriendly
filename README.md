@@ -1,6 +1,9 @@
 # 💸 PocketFriendly
 
-> **Group Trip Expense Splitter — Backend API**
+> **Group Trip Expense Splitter —**
+> <p align="center">
+  <img src="assets/logo.png" alt="PocketFriendly Logo" width="150"/>
+</p>
 
 A full-stack Node.js + Express REST API to manage group trip expenses, split bills fairly, and keep track of who owes whom. Built with MongoDB, JWT auth, and email notifications.
 
@@ -51,7 +54,8 @@ pocketfriendly/
 ```
 
 ---
-
+## 📸 Dashboard Preview
+![Dashboard](assets/dashboard.png)
 ## ⚙️ Getting Started
 
 ### Prerequisites
@@ -154,9 +158,7 @@ This project is licensed under the **ISC License**.
 
 ---
 
-## 🙏 Acknowledgements
 
-Forked from [real-Rahul1/pocketfriendly-backend](https://github.com/real-Rahul1/pocketfriendly-backend). Thanks to the original author for the foundation!
 
 ---
 
