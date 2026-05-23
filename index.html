@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PocketFriendly — Group Trip. Zero Stress.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- ═══════════════════════════ LANDING PAGE ═══════════════════════════ -->
+<div id="landing-section">
+  <nav class="landing-nav">
+    <div style="font-family:'Playfair Display',serif;font-size:22px;color:var(--cyan);">PocketFriendly</div>
+    <div style="display:flex;gap:10px;">
+      <button class="btn btn-ghost btn-sm" onclick="showAuth('login')">Log In</button>
+      <button class="btn btn-primary btn-sm" onclick="showAuth('register')">Get Started</button>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-badge">✈ Group Trip. Zero Stress.</div>
+    <h1>Pocket<br><span>Friendly</span></h1>
+    <p>Smart expense splitting for group travel — track, approve & settle with friends. One app. Every trip. Zero disputes.</p>
+    <div class="hero-ctas">
+      <button class="btn btn-primary" style="font-size:15px;padding:13px 28px;" onclick="showAuth('register')">🚀 Create Group — Free</button>
+      <button class="btn btn-ghost" style="font-size:15px;padding:13px 28px;" onclick="showAuth('login')">Log In</button>
+    </div>
+    <div style="display:flex;gap:24px;margin-top:48px;flex-wrap:wrap;justify-content:center;">
+      <div style="text-align:center;"><div style="font-family:'Playfair Display',serif;font-size:28px;color:var(--cyan);">Real-time</div><div style="font-size:12px;color:var(--muted);">Sync</div></div>
+      <div style="text-align:center;"><div style="font-family:'Playfair Display',serif;font-size:28px;color:var(--gold);">Group</div><div style="font-size:12px;color:var(--muted);">Approval</div></div>
+      <div style="text-align:center;"><div style="font-family:'Playfair Display',serif;font-size:28px;color:var(--success);">Smart</div><div style="font-size:12px;color:var(--muted);">Split</div></div>
+    </div>
+  </section>
+
+  <section class="how-section">
+    <div class="how-inner" style="text-align:center;">
+      <div class="section-tag">HOW IT WORKS</div>
+      <div class="section-title">Six steps to stress-free travel</div>
+      <div class="steps">
+        <div class="step"><div class="step-num">01</div><div class="step-title">Register & Create</div><div class="step-desc">Sign up & create a trip group with name, destination & budget</div></div>
+        <div class="step"><div class="step-num">02</div><div class="step-title">Invite Friends</div><div class="step-desc">Share unique Team Code — friends join instantly</div></div>
+        <div class="step"><div class="step-num">03</div><div class="step-title">Log Expenses</div><div class="step-desc">Add expenses with amount, category, date & notes</div></div>
+        <div class="step"><div class="step-num">04</div><div class="step-title">Approve Together</div><div class="step-desc">Every expense needs approval from all members</div></div>
+        <div class="step"><div class="step-num">05</div><div class="step-title">View Split</div><div class="step-desc">Real-time dashboard shows shares & outstanding balances</div></div>
+        <div class="step"><div class="step-num">06</div><div class="step-title">Settle Up</div><div class="step-desc">See who owes whom & clear with a single click</div></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features-section">
+    <div class="section-tag">KEY FEATURES</div>
+    <div class="section-title">Everything your group needs</div>
+    <p class="section-sub">Built for real friendships — fair splits, full transparency, zero awkwardness.</p>
+    <div class="feature-grid">
+      <div class="feature-card"><div class="feature-icon">👥</div><div class="feature-title">Team Codes</div><div class="feature-desc">Unique group codes for easy onboarding. No invites needed.</div></div>
+      <div class="feature-card"><div class="feature-icon">📅</div><div class="feature-title">Trip Timeline</div><div class="feature-desc">Each expense tagged with date, time, location & category.</div></div>
+      <div class="feature-card"><div class="feature-icon">✅</div><div class="feature-title">Collective Approval</div><div class="feature-desc">Democratic voting — expense counts only when everyone approves.</div></div>
+      <div class="feature-card"><div class="feature-icon">🔔</div><div class="feature-title">Live Notifications</div><div class="feature-desc">Real-time alerts when expenses are added or approved.</div></div>
+      <div class="feature-card"><div class="feature-icon">📊</div><div class="feature-title">Balance Dashboard</div><div class="feature-desc">Clear visual of each member's spend vs. their share.</div></div>
+      <div class="feature-card"><div class="feature-icon">⚖️</div><div class="feature-title">Flexible Splits</div><div class="feature-desc">Equal split, custom amounts, or percentage-based division.</div></div>
+      <div class="feature-card"><div class="feature-icon">📝</div><div class="feature-title">Expense Notes</div><div class="feature-desc">Add context to every entry — like digital receipts.</div></div>
+      <div class="feature-card"><div class="feature-icon">💸</div><div class="feature-title">Settlement View</div><div class="feature-desc">Who owes what to whom — settle with a single click.</div></div>
+    </div>
+  </section>
+
+  <section class="tech-section">
+    <div class="section-tag" style="text-align:center;">TECH STACK</div>
+    <div class="section-title" style="text-align:center;margin-bottom:32px;">Built with modern tech</div>
+    <div class="tech-grid">
+      <div class="tech-col"><div class="tech-col-title tc-fe">Frontend</div>
+        <div class="tech-item"><div class="tech-dot dot-cyan"></div>HTML5 + CSS3</div>
+        <div class="tech-item"><div class="tech-dot dot-cyan"></div>Vanilla JavaScript</div>
+        <div class="tech-item"><div class="tech-dot dot-cyan"></div>Responsive Design</div>
+        <div class="tech-item"><div class="tech-dot dot-cyan"></div>Live DOM Updates</div>
+      </div>
+      <div class="tech-col"><div class="tech-col-title tc-be">Backend</div>
+        <div class="tech-item"><div class="tech-dot dot-red"></div>Node.js + Express</div>
+        <div class="tech-item"><div class="tech-dot dot-red"></div>REST API</div>
+        <div class="tech-item"><div class="tech-dot dot-red"></div>JWT Authentication</div>
+        <div class="tech-item"><div class="tech-dot dot-red"></div>Middleware Auth</div>
+      </div>
+      <div class="tech-col"><div class="tech-col-title tc-db">Database</div>
+        <div class="tech-item"><div class="tech-dot dot-gold"></div>MongoDB / MySQL</div>
+        <div class="tech-item"><div class="tech-dot dot-gold"></div>User & Group Schemas</div>
+        <div class="tech-item"><div class="tech-dot dot-gold"></div>Expense Records</div>
+        <div class="tech-item"><div class="tech-dot dot-gold"></div>Approval Logs</div>
+      </div>
+      <div class="tech-col"><div class="tech-col-title tc-ft">Features</div>
+        <div class="tech-item"><div class="tech-dot dot-green"></div>Team Code System</div>
+        <div class="tech-item"><div class="tech-dot dot-green"></div>Real-time Sync</div>
+        <div class="tech-item"><div class="tech-dot dot-green"></div>Email Notifications</div>
+        <div class="tech-item"><div class="tech-dot dot-green"></div>Session Management</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team-section">
+    <div class="section-tag">THE TEAM</div>
+    <div class="section-title">Team-X</div>
+    <div class="team-grid">
+     <div class="team-card"><img src="mrinal.jpg .jpeg" style="width:80px;height:80px;border-radius:50%;object-fit:cover;border:2px solid rgba(0,200,224,.4);margin:0 auto 12px;display:block;"><div class="team-name">Mrinal Roy</div><div class="team-role"> FrontendDeveloper</div></div>
+      <div class="team-card"><img src="swastika.jpg.jpeg" style="width:80px;height:80px;border-radius:50%;object-fit:cover;border:2px solid rgba(0,200,224,.4);margin:0 auto 12px;display:block;"><div class="team-name">Swastika Shaw</div><div class="team-role">Team Lead</div></div>
+      <div class="team-card"><img src="rahul.jpg" style="width:80px;height:80px;border-radius:50%;object-fit:cover;border:2px solid rgba(0,200,224,.4);margin:0 auto 12px;display:block;"><div class="team-name">Rahul Sah</div><div class="team-role"> Backend Developer</div></div>
+      <div class="team-card"><img src="somashree.jpg" style="width:80px;height:80px;border-radius:50%;object-fit:cover;border:2px solid rgba(0,200,224,.4);margin:0 auto 12px;display:block;"><div class="team-name">Somashree Giri</div><div class="team-role">Designer</div></div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div style="font-family:'Playfair Display',serif;font-size:38px;margin-bottom:12px;">Travel together.<br><span style="color:var(--cyan);">Spend smarter.</span></div>
+    <p style="color:var(--muted);max-width:460px;margin:0 auto 28px;">No more arguments. No more confusion. Just unforgettable trips with your people.</p>
+    <button class="btn btn-primary" style="font-size:15px;padding:13px 32px;" onclick="showAuth('register')">📱 Create Group — Free to use</button>
+    <div style="margin-top:14px;color:var(--muted);font-size:12px;">Start your trip in 60 seconds</div>
+  </section>
+</div>
+
+<!-- ═══════════════════════════ AUTH ═══════════════════════════ -->
+<div id="auth-page">
+  <div class="auth-box">
+    <div class="auth-logo">PocketFriendly</div>
+    <div class="auth-sub">Group Trip. Zero Stress.</div>
+    <div class="auth-tabs">
+      <div class="auth-tab active" id="tab-login" onclick="switchTab('login')">Log In</div>
+      <div class="auth-tab" id="tab-register" onclick="switchTab('register')">Sign Up</div>
+    </div>
+
+    <div class="auth-form active" id="form-login">
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" id="login-email" placeholder="you@example.com">
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" id="login-pw" placeholder="••••••••">
+      </div>
+      <button class="btn btn-primary" style="width:100%;justify-content:center;padding:12px;" onclick="doLogin()">Log In</button>
+      <div style="text-align:center;margin-top:14px;font-size:13px;color:var(--muted);">
+        Demo: <strong style="color:var(--cyan)">demo@pf.com</strong> / <strong style="color:var(--cyan)">demo123</strong>
+      </div>
+      <div style="text-align:center;margin-top:8px;"><button class="btn btn-ghost btn-sm" onclick="showLanding()">← View Landing Page</button></div>
+    </div>
+
+    <div class="auth-form" id="form-register">
+      <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" id="reg-name" placeholder="Your Name">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" id="reg-email" placeholder="you@example.com">
+      </div>
+      <div class="form-group">
+        <label>Password</label>
+        <input type="password" id="reg-pw" placeholder="Min. 6 characters">
+      </div>
+      <button class="btn btn-primary" style="width:100%;justify-content:center;padding:12px;" onclick="doRegister()">Create Account</button>
+      <div style="text-align:center;margin-top:8px;"><button class="btn btn-ghost btn-sm" onclick="showLanding()">← View Landing Page</button></div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════ APP SHELL ═══════════════════════════ -->
+<div class="app" id="app-shell" style="display:none;">
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <div class="brand">PocketFriendly</div>
+      <div class="tagline">Group Trip. Zero Stress.</div>
+    </div>
+    <nav class="sidebar-nav">
+      <div class="nav-item active" onclick="showPage('dashboard')" id="nav-dashboard">
+        <span class="nav-icon">📊</span><span>Dashboard</span>
+      </div>
+      <div class="nav-item" onclick="showPage('trips')" id="nav-trips">
+        <span class="nav-icon">✈️</span><span>My Trips</span>
+      </div>
+      <div class="nav-item" onclick="showPage('expenses')" id="nav-expenses">
+        <span class="nav-icon">💳</span><span>Expenses</span>
+      </div>
+      <div class="nav-item" onclick="showPage('members')" id="nav-members">
+        <span class="nav-icon">👥</span><span>Members</span>
+      </div>
+      <div class="nav-item" onclick="showPage('settle')" id="nav-settle">
+        <span class="nav-icon">💸</span><span>Settle Up</span>
+      </div>
+      <div class="nav-item" onclick="showPage('join')" id="nav-join">
+        <span class="nav-icon">🔗</span><span>Join Trip</span>
+      </div>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="user-chip" onclick="doLogout()">
+        <div class="avatar" id="sidebar-avatar">?</div>
+        <div>
+          <div class="user-name" id="sidebar-name">User</div>
+          <div class="user-role">Tap to log out</div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+    <div class="topbar">
+      <div class="topbar-title" id="page-title">Dashboard</div>
+      <div class="topbar-actions">
+        <button class="btn btn-primary btn-sm" id="topbar-cta" onclick="openCreateTrip()">+ New Trip</button>
+      </div>
+    </div>
+
+    <!-- DASHBOARD -->
+    <div class="page active" id="page-dashboard">
+      <div id="dash-no-trip" style="display:none;">
+        <div class="empty"><div class="empty-icon">✈️</div><div class="empty-title">No active trip</div><p style="margin-top:8px">Create your first trip or join one with a code.</p><div style="margin-top:20px;display:flex;gap:10px;justify-content:center;"><button class="btn btn-primary" onclick="openCreateTrip()">+ Create Trip</button><button class="btn btn-ghost" onclick="showPage('join')">Join Trip</button></div></div>
+      </div>
+      <div id="dash-main">
+        <div class="trip-header" id="trip-header">
+          <div class="trip-icon">✈️</div>
+          <div style="flex:1;">
+            <div class="trip-title" id="trip-name-display">—</div>
+            <div class="trip-sub" id="trip-dest-display">—</div>
+          </div>
+          <div>
+            <div style="font-size:11px;color:var(--muted);margin-bottom:4px;">Team Code</div>
+            <div class="trip-code" id="trip-code-display" onclick="copyCode()">—</div>
+          </div>
+        </div>
+        <div class="grid-4 mb-3" id="stats-grid">
+          <div class="stat-card stat-cyan"><div class="stat-label">Total Spent</div><div class="stat-value" id="stat-total">₹0</div><div class="stat-sub">across all expenses</div></div>
+          <div class="stat-card stat-gold"><div class="stat-label">Your Share</div><div class="stat-value" id="stat-share">₹0</div><div class="stat-sub">of approved expenses</div></div>
+          <div class="stat-card stat-success"><div class="stat-label">You Paid</div><div class="stat-value" id="stat-paid">₹0</div><div class="stat-sub">expenses added by you</div></div>
+          <div class="stat-card stat-danger"><div class="stat-label">You Owe</div><div class="stat-value" id="stat-owe">₹0</div><div class="stat-sub">outstanding balance</div></div>
+        </div>
+        <div class="grid-2">
+          <div class="card">
+            <div class="section-header"><div class="section-label">Budget Tracker</div></div>
+            <div style="display:flex;justify-content:space-between;margin-bottom:8px;">
+              <span style="font-size:13px;color:var(--muted);">Spent</span>
+              <span style="font-size:13px;" id="budget-text">₹0 / ₹0</span>
+            </div>
+            <div class="progress-bar"><div class="progress-fill" id="budget-bar" style="width:0%;"></div></div>
+            <div style="font-size:12px;color:var(--muted);margin-top:8px;" id="budget-pct">0% of budget used</div>
+          </div>
+          <div class="card">
+            <div class="section-header"><div class="section-label">Recent Activity</div></div>
+            <div id="recent-list"><div class="text-muted text-sm">No expenses yet</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TRIPS -->
+    <div class="page" id="page-trips">
+      <div class="section-header mb-2">
+        <div class="section-label">Your Trips</div>
+        <button class="btn btn-primary btn-sm" onclick="openCreateTrip()">+ New Trip</button>
+      </div>
+      <div id="trips-list"><div class="empty"><div class="empty-icon">✈️</div><div class="empty-title">No trips yet</div></div></div>
+    </div>
+
+    <!-- EXPENSES -->
+    <div class="page" id="page-expenses">
+      <div class="section-header mb-2">
+        <div class="section-label">Expenses</div>
+        <button class="btn btn-primary btn-sm" onclick="openAddExpense()">+ Add Expense</button>
+      </div>
+      <div class="card" style="padding:0;overflow:hidden;">
+        <div id="expenses-list"><div class="empty" style="padding:32px 20px;"><div class="empty-icon">💳</div><div class="empty-title">No expenses yet</div><p class="text-sm text-muted">Select a trip to add expenses</p></div></div>
+      </div>
+    </div>
+
+    <!-- MEMBERS -->
+    <div class="page" id="page-members">
+      <div class="section-header mb-2">
+        <div class="section-label">Trip Members</div>
+      </div>
+      <div id="members-list-wrap"><div class="empty"><div class="empty-icon">👥</div><div class="empty-title">No members</div></div></div>
+    </div>
+
+    <!-- SETTLE UP -->
+    <div class="page" id="page-settle">
+      <div class="section-header mb-2">
+        <div class="section-label">Settle Up</div>
+      </div>
+      <div id="settle-wrap"><div class="empty"><div class="empty-icon">💸</div><div class="empty-title">Nothing to settle</div></div></div>
+    </div>
+
+    <!-- JOIN TRIP -->
+    <div class="page" id="page-join">
+      <div style="max-width:420px;margin:0 auto;padding-top:20px;">
+        <div class="card">
+          <div style="text-align:center;margin-bottom:24px;"><div style="font-size:40px;margin-bottom:10px;">🔗</div><div style="font-family:'Playfair Display',serif;font-size:22px;margin-bottom:6px;">Join a Trip</div><div class="text-muted text-sm">Enter the team code shared by your friend</div></div>
+          <div class="form-group">
+            <label>Team Code</label>
+            <input type="text" id="join-code-input" placeholder="e.g. GOA2025" style="text-align:center;font-size:20px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;">
+          </div>
+          <button class="btn btn-primary" style="width:100%;justify-content:center;padding:12px;" onclick="joinTrip()">Join Trip</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- ═══════ MODALS ═══════ -->
+<!-- Create Trip Modal -->
+<div class="modal-overlay" id="modal-trip">
+  <div class="modal">
+    <div class="modal-title">✈ Create New Trip</div>
+    <div class="form-group"><label>Trip Name</label><input type="text" id="m-trip-name" placeholder="Goa Summer 2025"></div>
+    <div class="form-group"><label>Destination</label><input type="text" id="m-trip-dest" placeholder="Goa, India"></div>
+    <div class="form-group"><label>Budget (₹)</label><div class="input-group"><span class="input-prefix">₹</span><input type="number" id="m-trip-budget" placeholder="20000"></div></div>
+    <div class="modal-actions">
+      <button class="btn btn-ghost" onclick="closeModal('modal-trip')">Cancel</button>
+      <button class="btn btn-primary" onclick="createTrip()">Create Trip</button>
+    </div>
+  </div>
+</div>
+
+<!-- Add Expense Modal -->
+<div class="modal-overlay" id="modal-expense">
+  <div class="modal">
+    <div class="modal-title">💳 Add Expense</div>
+    <div class="form-group"><label>Description</label><input type="text" id="m-exp-name" placeholder="Hotel bill, Dinner, Cab..."></div>
+    <div class="form-group"><label>Amount (₹)</label><div class="input-group"><span class="input-prefix">₹</span><input type="number" id="m-exp-amt" placeholder="1200"></div></div>
+    <div class="form-group"><label>Category</label>
+      <select id="m-exp-cat">
+        <option value="🏨">🏨 Hotel / Stay</option>
+        <option value="🍽">🍽 Food & Dining</option>
+        <option value="🚗">🚗 Transport</option>
+        <option value="🎡">🎡 Activities</option>
+        <option value="🛒">🛒 Shopping</option>
+        <option value="⛽">⛽ Fuel / Toll</option>
+        <option value="💊">💊 Medical</option>
+        <option value="🎟">🎟 Tickets</option>
+      </select>
+    </div>
+    <div class="form-group"><label>Split Type</label>
+      <select id="m-exp-split">
+        <option value="equal">Equal split among all</option>
+        <option value="payer">Payer covers all</option>
+      </select>
+    </div>
+    <div class="form-group"><label>Notes (optional)</label><textarea id="m-exp-notes" placeholder="Add context..."></textarea></div>
+    <div class="modal-actions">
+      <button class="btn btn-ghost" onclick="closeModal('modal-expense')">Cancel</button>
+      <button class="btn btn-primary" onclick="addExpense()">Add Expense</button>
+    </div>
+  </div>
+</div>
+
+<!-- Toast -->
+<div class="toast" id="toast">
+  <span class="toast-icon" id="toast-icon">✅</span>
+  <span id="toast-msg">Done!</span>
+</div>
+
+<!-- ═══════════════════════════ BACKEND (In-Memory) ═══════════════════════════ -->
+<script src="script.js"></script>
+</body>
+</html>
